@@ -1,0 +1,74 @@
+@import '_variables.scss';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import "~bootstrap/scss/bootstrap-grid.scss";
+
+html,
+body {
+    h1, h2, h3, h4, h5 {
+        font-family: $font-family-base;
+    }
+    main {
+        height: 200vh;
+    }
+    background-color: $salmon;
+}
+
+.logo-container {
+    background-color: $salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 150px;
+        width: 100%;
+        object-fit: contain;
+        margin: 1rem;
+    }
+}
+nav {
+    background-color: $primary;
+    font-weight: bold;
+    .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        font-size: 1.25rem;
+    }
+    .nav-item {
+        color: $white;
+        text-transform: uppercase;
+        display: flex;
+        @include media-breakpoint-down(lg) {
+            &.socials .nav-link,
+            &.shopping.lang .nav-link {
+                margin: 0 1rem;
+            }
+        }
+    }
+    i {
+        color: $white;
+    }
+}
+
+footer {
+    > div {
+        padding: 3rem;
+    }
+    background-color: $primary;
+    h1, h2, p {
+        color: $salmon;
+    }
+    a:link,
+    a:visited {
+        color: $salmon;
+        font-weight: bold;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    h2 {
+        margin-top: .5rem;
+    }
+}

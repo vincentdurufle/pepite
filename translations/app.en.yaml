@@ -1,0 +1,16 @@
+nav:
+  shop: Shop
+  about: About
+  locations: Locations
+
+footer:
+  contact_us: Contact us
+  openings: Opening hours
+  off_season: Off season
+  off_season_schedule_1: April to mid-June & mid-September to Christmas
+  off_season_schedule_2: Open every week-ends, market days, long week-ends and school holidays !
+  high_season: High season
+  high_season_schedule_1: Mid June to mid September
+  high_season_schedule_2: Open everyday !
+  terms: Terms and conditions
+  legals: Legals

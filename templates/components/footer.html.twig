@@ -1,0 +1,31 @@
+{% trans_default_domain 'app' %}
+
+<footer>
+    <div class="row no-gutters">
+        <div class="col">
+            <h1>{{ 'footer.contact_us'|trans }}</h1>
+            <a href="mailto:{{ contact_mail }}">{{ contact_mail }}</a>
+            <p>155 Route du Cap-Ferret,</p>
+            <p>33950, CANON</p>
+            <p>Lège-Cap-Ferret</p>
+            <a href="tel:0556032550">T. +33 (0)5 56 03 25 50</a>
+        </div>
+        <div class="col">
+            <h1>{{ 'footer.openings'|trans }}</h1>
+            <p>9H - 13H</p>
+            <p>15H - 19H30</p>
+            <h2>{{ 'footer.off_season'|trans }}</h2>
+            <p>{{ 'footer.off_season_schedule_1'|trans }}</p>
+            <p>{{ 'footer.off_season_schedule_2'|trans }}</p>
+            <h2>{{ 'footer.high_season'|trans }}</h2>
+            <p>{{ 'footer.high_season_schedule_1'|trans }}</p>
+            <p>{{ 'footer.high_season_schedule_2'|trans }}</p>
+        </div>
+        <div class="col">
+            <h1>{{ 'footer.terms'|trans }}</h1>
+        </div>
+        <div class="col">
+            <h1>{{ 'footer.legals'|trans }}</h1>
+        </div>
+    </div>
+</footer>
