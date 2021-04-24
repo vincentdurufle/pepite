@@ -1,0 +1,16 @@
+nav:
+  shop: Shop
+  about: A propos
+  locations: Locations
+
+footer:
+  contact_us: Nous contacter
+  openings: Horaires
+  off_season: Hors saison
+  off_season_schedule_1: Avril à mi-Juin & mi-Sept à Noël
+  off_season_schedule_2: Ouvert tous les weekends, jours de marché, ponts et Vacances Scolaire !
+  high_season: Haute saison
+  high_season_schedule_1: Mi-Juin à mi-Septembre
+  high_season_schedule_2: Ouvert tous les jours !
+  terms: Termes et conditions
+  legals: Légal
